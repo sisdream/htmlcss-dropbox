@@ -5,7 +5,7 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 /* barra navigazione */
@@ -29,7 +29,7 @@ li img{
 }
 
 li a{
-    color: #7e7e7e;
+    color: #616161;
     text-decoration: none;
     font-size: 13px;
 }
@@ -37,14 +37,66 @@ li a{
 .btn{
     background-color: #0061ff;
     color: #fff;
-    padding: 5px 10px;
+    padding: 8px 10px;
     border: 0;
+}
+/* jumbotron */
+
+.jumbotron{
+    background-color: #b4d0e7;
+    height: 540px;
 }
 
 .jumbo{
-    background-color: gold;
-    height: 500px;
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    font-size: 14px;
 }
+h1{
+    font-size: 4rem;
+    padding-top: 50px;
+}
+
+.jumbo-text{
+    margin-top: 30px;
+    display: flex;
+}
+
+.jumbo-text p{
+    width: 55%;
+    color: #616161;
+}
+
+.btn-big{
+    margin: 20px 0;
+}
+
+.jumbo-img{
+    display: flex;
+    justify-content: end;
+}
+
+.jumbo-img img{
+    display: block;
+    width: 90%;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    bottom: 30%;
+    color: #616161;
+}
+
+.text-arrow{
+    position: absolute;
+    bottom: 15%;
+    font-size: 3rem;
+}
+
 
 .business{
     height: 800px;
