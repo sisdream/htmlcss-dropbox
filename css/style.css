@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: aqua;
+    height: 100px;
+}
+
+.jumbo{
+    background-color: gold;
+    height: 500px;
+}
+
+.business{
+    height: 800px;
+    background-color: brown;
+}
+
+.partner{
+    height: 500px;
+    background-color: chocolate;
+}
+
+.drop{
+    height: 600px;
+    background-color: blueviolet;
+}
+
+.team{
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.quadrati{
+    height: calc(100vw / 3);
+    background-color: chartreuse;
+}
+
+.prova{
+    height: 200px;
+    background-color: rgb(108, 108, 177);
+}
+
+.domande{
+    height: 400px;
+    background-color: fuchsia;
+}
+
+footer{
+    height: 600px;
+    background-color: black;
+}
