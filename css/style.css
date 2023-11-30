@@ -5,7 +5,8 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 /* barra navigazione */
@@ -31,7 +32,6 @@ li img{
 li a{
     color: #616161;
     text-decoration: none;
-    font-size: 13px;
 }
 
 .btn{
@@ -44,17 +44,17 @@ li a{
 
 .jumbotron{
     background-color: #b4d0e7;
-    height: 540px;
+    height: 500px;
 }
 
 .jumbo{
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
-    font-size: 14px;
 }
+
 h1{
     font-size: 4rem;
     padding-top: 50px;
@@ -66,7 +66,7 @@ h1{
 }
 
 .jumbo-text p{
-    width: 55%;
+    width: 80%;
     color: #616161;
 }
 
@@ -81,27 +81,69 @@ h1{
 
 .jumbo-img img{
     display: block;
-    width: 90%;
+    width: 80%;
     position: relative;
 }
 
 .text{
     position: absolute;
-    bottom: 30%;
+    bottom: 35%;
     color: #616161;
 }
 
 .text-arrow{
     position: absolute;
-    bottom: 15%;
+    bottom: 17%;
     font-size: 3rem;
 }
 
+/* parte centale */
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
 
 .business{
     height: 800px;
-    background-color: brown;
+    padding-top: 150px;
 }
+
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.radio-btn{
+    margin: 20px;
+    color: #616161;
+}
+
+.colonne{
+    display: flex;
+}
+
+.colonne span{
+    width: calc(100% / 3 - 30px);
+    margin: 30px;
+    height: 500px;
+    border: 1px solid #d4d1d1;
+}
+
+.title{
+    height: 25px;
+    border-bottom: 1px solid #d4d1d1;
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
 
 .partner{
     height: 500px;
