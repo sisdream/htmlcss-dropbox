@@ -137,8 +137,41 @@ h2{
     padding: 5px;
 }
 
+.card{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 15px;
+}
 
+.card h3{
+    margin-top: 20px;
+}
 
+.card p{
+    color: #616161;
+}
+
+.card-plus{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: 11px;
+}
+
+.central{
+    margin-top: 10px;
+}
+
+.right{
+    margin-top: 0;
+}
+
+hr{
+    width: 40px;
+    margin-bottom: 50px;
+}
 
 
 
