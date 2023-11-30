@@ -125,7 +125,7 @@ h2{
 .colonne span{
     width: calc(100% / 3 - 30px);
     margin: 30px;
-    height: 600px;
+    height: 700px;
     border: 1px solid #d4d1d1;
 }
 
@@ -177,16 +177,68 @@ hr{
 
 .fa-check{
     color:  #0061ff;
+    padding-right: 3px;
 }
 
+.righa{
+    margin: 30px;
+    height: 200px;
+    border: 1px solid #d4d1d1;
+    position: relative;
+}
 
+.sottotitolo{
+    margin-bottom: 30px;
+}
 
+.fix{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 
-
+/* sezione divisa in due  */
 .partner{
-    height: 500px;
-    background-color: chocolate;
+    margin: 60px 30px;
+    display: flex;
+    justify-content: space-between;
 }
+
+
+.partner-img img{
+    display: block;
+    width: 90%;
+}
+
+.partner-text{
+    width: 50% ;
+    margin-top: 100px;
+}
+
+.partner-text p{
+    color: #616161;
+    margin-top: 20px;
+}
+
+.btn-small{
+    color: #616161;
+    background-color: #fff;
+    border: 2px solid #616161;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .drop{
     height: 600px;
