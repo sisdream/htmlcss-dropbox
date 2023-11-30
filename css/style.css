@@ -4,9 +4,41 @@
     box-sizing: border-box;
 }
 
-.nav{
-    background-color: aqua;
-    height: 100px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* barra navigazione */
+.navigazione{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+li img{
+    width: 100px;
+}
+
+li a{
+    color: #7e7e7e;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.btn{
+    background-color: #0061ff;
+    color: #fff;
+    padding: 5px 10px;
+    border: 0;
 }
 
 .jumbo{
