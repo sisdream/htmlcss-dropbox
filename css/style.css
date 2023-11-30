@@ -105,7 +105,6 @@ h1{
 }
 
 .business{
-    height: 800px;
     padding-top: 150px;
 }
 
@@ -126,7 +125,7 @@ h2{
 .colonne span{
     width: calc(100% / 3 - 30px);
     margin: 30px;
-    height: 500px;
+    height: 600px;
     border: 1px solid #d4d1d1;
 }
 
@@ -138,7 +137,6 @@ h2{
 }
 
 .card{
-    background-color: beige;
     display: flex;
     flex-direction: column;
     padding: 0 20px;
@@ -156,23 +154,30 @@ h2{
 .card-plus{
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    padding: 15px 0;
     font-size: 11px;
+    gap: 20px;
+}
+
+.left{
+    margin-top: 23px;
 }
 
 .central{
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .right{
-    margin-top: 0;
+    margin-top: 12px;
 }
 
 hr{
     width: 40px;
-    margin-bottom: 50px;
 }
 
+.fa-check{
+    color:  #0061ff;
+}
 
 
 
