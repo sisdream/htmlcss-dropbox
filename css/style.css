@@ -44,6 +44,7 @@ li a:hover{
     color: #fff;
     padding: 8px 10px;
     border: 0;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -173,15 +174,11 @@ h2{
 }
 
 .left{
-    margin-top: 23px;
+    margin-top: 45px;
 }
 
 .central{
-    margin-top: 12px;
-}
-
-.right{
-    margin-top: 12px;
+    margin-top: 32px;
 }
 
 hr{
@@ -389,29 +386,43 @@ hr{
 
 .prova div{
     width: 55%;
-    padding: 50px 0;
+    padding: 40px 0;
     display: inline-block;
 }
 
+.btn-prova{
+    border: 0;
+    padding: 8px 30px;
+    position: relative;
+    bottom: 37px;
+    margin: 0 70px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* sezione domande */
 
 .domande{
     height: 400px;
-    background-color: fuchsia;
+    margin: 100px;
 }
+
+.cont-domande{
+    border-bottom: 1px solid #a5a2a2;
+    margin-top: 50px;
+}
+
+.cont-domande div{
+    border-top: 1px solid #a5a2a2;
+    font-weight: bold;
+    padding: 30px 0;
+}
+
+.cont-domande div i{
+    margin-left: 120px;
+}
+
+
+
+
 
 footer{
     height: 600px;
