@@ -230,32 +230,37 @@ hr{
 /* sezione divisa in sei cubi */
 
 .drop{
-    height: 600px;
-    background-color: blueviolet;
     margin: 30px;
     display: flex;
     flex-wrap: wrap;
 }
 
-.contenitore{
-   width: 100%;
+.container-drop{
+   height: 800px;
    width: 100%;
    display: flex;
-   gap: 50px;
+   gap: 30px;
    flex-wrap: wrap;
    justify-content: space-around;
 
 }
 
-.contenitore span{
+.container-drop span{
     width: calc(100% / 4);
-    border: 4px solid black;
-    height: 150px;
     display: inline-block;
+    margin-top: 30px;
 }
 
+.drop-img img{
+    width: 220px;
+    height: 170px;
+    display: block;
+}
 
-
+.container-drop p{
+    color: #616161;
+    margin-top: 10px;
+}
 
 
 
