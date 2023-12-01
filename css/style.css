@@ -227,23 +227,46 @@ hr{
     margin-top: 20px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* sezione divisa in sei cubi */
 
 .drop{
     height: 600px;
     background-color: blueviolet;
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.contenitore{
+   width: 100%;
+   width: 100%;
+   display: flex;
+   gap: 50px;
+   flex-wrap: wrap;
+   justify-content: space-around;
+
+}
+
+.contenitore span{
+    width: calc(100% / 4);
+    border: 4px solid black;
+    height: 150px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .team{
     height: 200px;
