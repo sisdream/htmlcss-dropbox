@@ -262,21 +262,43 @@ hr{
     margin-top: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
+/* sezione titolo del main */
 
 .team{
-    height: 200px;
-    background-color: cadetblue;
+    width: 50%;
+    margin: 30px;
+    padding: 140px 0;
+    display: flex;
+    flex-direction: column;
 }
+
+.team h2{
+    margin-bottom: 40px;
+}
+
+.team a{
+    color:  #0061ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .quadrati{
     height: calc(100vw / 3);
