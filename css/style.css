@@ -422,7 +422,6 @@ hr{
 /* footer */
 
 footer{
-    height: 600px;
     color: #fff;
     background-color: black;
     padding: 80px 0;
@@ -445,4 +444,16 @@ footer{
 .footer-list a{
     color: #fff;
     padding: 0;
+}
+
+.lingua{
+    padding-top: 80px;
+    width: 80%;
+    margin: 0 auto;
+    color: #999999;
+}
+
+.lingua hr{
+    width: 100px;
+    margin-bottom: 30px;
 }
