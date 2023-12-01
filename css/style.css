@@ -11,11 +11,15 @@ body{
 
 /* barra navigazione */
 .navigazione{
+    background-color: #fff;
     height: 60px;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 20px;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
 }
 
 ul{
@@ -55,6 +59,7 @@ li a:hover{
 .jumbotron{
     background-color: #b4d0e7;
     height: 500px;
+    margin-top: 100px;
 }
 
 .jumbo{
@@ -123,9 +128,14 @@ h2{
     margin-bottom: 20px;
 }
 
+.radio-btn:hover{
+    opacity: 0.8;
+}
+
 .radio-btn{
     margin: 20px;
     color: #616161;
+    cursor: pointer;
 }
 
 .colonne{
@@ -231,9 +241,9 @@ hr{
 }
 
 .btn-small{
-    color: #616161;
+    color: #999999;
     background-color: #fff;
-    border: 2px solid #616161;
+    border: 2px solid #999999;
     margin-top: 20px;
 }
 
@@ -415,8 +425,19 @@ hr{
     padding: 30px 0;
 }
 
+.hover{
+    display: none;
+    padding-top: 31px;
+    font-weight: initial;
+}
+
+.cont-domande div i:hover + .hover{
+    display: block;
+}
+
 .cont-domande div i{
     margin-left: 120px;
+    cursor: pointer;
 }
 
 /* footer */
@@ -456,4 +477,8 @@ footer{
 .lingua hr{
     width: 100px;
     margin-bottom: 30px;
+}
+
+.lingua i{
+    cursor: pointer;
 }
