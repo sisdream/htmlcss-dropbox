@@ -20,6 +20,7 @@ body{
     padding: 0 20px;
     position: fixed;
     top: 0;
+    z-index: 8;
 }
 
 ul{
@@ -57,9 +58,9 @@ li a:hover{
 /* jumbotron */
 
 .jumbotron{
-    background-color: #b4d0e7;
     height: 500px;
-    margin-top: 100px;
+    background-color: #b4d0e7;
+    margin-top: 60px;
 }
 
 .jumbo{
@@ -130,12 +131,16 @@ h2{
 
 .radio-btn:hover{
     opacity: 0.8;
+    cursor: pointer;
+}
+
+.radio-btn:hover > *{
+    cursor: pointer;
 }
 
 .radio-btn{
     margin: 20px;
     color: #616161;
-    cursor: pointer;
 }
 
 .colonne{
@@ -178,17 +183,15 @@ h2{
 }
 
 .card-plus ul{
+    height: 100px;
     display:flex ;
     flex-direction: column;
     align-items: flex-start;
 }
 
-.left{
-    margin-top: 45px;
-}
-
-.central{
-    margin-top: 32px;
+.card-plus div{
+    display: flex;
+    align-items: baseline;
 }
 
 hr{
@@ -217,7 +220,7 @@ hr{
     right: 30px;
 }
 
-/* sezione divisa in due  */
+/* sezione divisa in due */
 .partner{
     margin: 60px 30px;
     display: flex;
@@ -433,6 +436,10 @@ hr{
 
 .cont-domande div i:hover + .hover{
     display: block;
+}
+
+.cont-domande div i:hover{
+    transform: rotate(180deg);
 }
 
 .cont-domande div i{
