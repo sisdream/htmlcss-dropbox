@@ -79,15 +79,17 @@ h1{
 .jumbo-text{
     margin-top: 30px;
     display: flex;
+    flex-direction: column;
 }
 
 .jumbo-text p{
-    width: 80%;
+    width: 33%;
     color: #616161;
 }
 
 .btn-big{
     margin: 20px 0;
+    width: 180px;
 }
 
 .jumbo-img{
@@ -97,19 +99,16 @@ h1{
 
 .jumbo-img img{
     display: block;
-    width: 80%;
+    width: 60%;
     position: relative;
+    bottom: 200px;
 }
 
 .text{
-    position: absolute;
-    bottom: 35%;
     color: #616161;
 }
 
 .text-arrow{
-    position: absolute;
-    bottom: 17%;
     font-size: 3rem;
 }
 
@@ -139,17 +138,18 @@ h2{
 }
 
 .radio-btn{
-    margin: 20px;
+    margin-right: 20px;
     color: #616161;
 }
 
 .colonne{
     display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
 }
 
 .colonne span{
     width: calc(100% / 3 - 30px);
-    margin: 30px;
     height: 700px;
     border: 1px solid #d4d1d1;
 }
@@ -318,8 +318,8 @@ hr{
 .cube-mini{
     display: flex;
     align-items: center;
-    width:calc(100%/ 2);
-    height: calc(100% / 2);
+    width: 50%;
+    height: 50%;
 }
 
 .cube-img{
